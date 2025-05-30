@@ -1,0 +1,689 @@
+﻿#login-box {
+	width:333px;
+	/*height: 352px;*/
+	height: 270px;
+	/*padding: 58px 76px 0 76px;*/
+	padding:35px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(../img/login-box-backg.png) no-repeat left top;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 30px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+.form-login  {
+	width: 205px;
+	/*padding: 10px 4px 6px 3px;*/
+	padding: 6px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	/*font-size: 16px;*/
+	font-size: 12px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+
+ body{ font-family:arial, verdana, sans-serif; background: White; }
+     
+.main {padding:0;margin:0 auto;}
+.main_resize {margin:0 auto;width:1200px;}
+.logo {height:120px;padding:0;margin:0 auto;}
+
+
+/* header */
+#header{ height: 50px;border-bottom: 0px solid #eeeeee; font-size: 80%; }
+#header h1.title{ margin-top: 4px;  margin-bottom: 5px;}
+.logo{ vertical-align: middle; padding-top: 1px; padding-right: 3px; padding-left: 5px;}
+
+
+
+ /*Menu Tabs*/
+ 
+/*#Upboard{font-size: 100%; line-height: normal;height: 25px; display: block;background-color:yellow;}*/
+#Upboard ul{  position:absolute ;  margin: 0; padding: 0px 0px 0px 0px; list-style: none;}
+#Upboard li{ display:  block;  margin: 0;padding: 0;}
+#Upboard li{ float: left; background: url("../img/master/tableftB.gif") no-repeat left top;margin: 0;padding: 0 0 0 4px;text-decoration: none; background-position: 0% -42px;line-height: 13px;}
+#Upboard li span{float: left;display: block; background: url("../img/master/tabrightB.gif") no-repeat right top;background-position: 100% -42px;padding: 5px 15px 4px 6px;color: #666;}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+/*#Upboard li span{float: none;color:Black;}*/
+/* End IE5-Mac hack*/
+#Upboard li:hover span{ color:#13007D;}
+#Upboard li:hover span{ color:Gold;}
+#Upboard li:hover{ background-position: 0% 0px;}
+#Upboard li:hover span{background-position: 100% 0px;}
+#Upboard li.selected{background-position: 0% 0px;}
+#Upboard li.selected span{color: #13007D;background-position: 100% 0px;}
+#Upboard a:link {text-decoration:none;} 
+
+
+/*Hover Menu*/
+.popupMenu{ position: absolute; visibility: hidden; background-color: #F4F4F4; opacity: .9; filter: alpha(opacity=90); padding: 5px; border: 1px solid #ddd; }
+.popupMenu { margin-left: 15px; list-style-image: url(../img/li_arrow.gif);}
+.popupMenu li{ margin: 0; font-size:80%;  }
+.popupMenu li:hover{ text-decoration: underline; color:Red; }
+.popupMenu li:hover span{background-position: 100% 0px;  color:Red;}
+.popupTitle{ padding-bottom: 4px;  font-weight: bold; font-size:85%; }
+
+
+/* Error List */
+ .ErrorList  { color:Red; }
+ 
+
+/* Menu */
+#Menuboard{height: 0px; font-size: 80%; margin-top: 0px; line-height: 22px;}
+
+/*#nav{ background-color:Transparent;height:37px;width:100%; background:url(../img/master/three_0.gif) repeat-x;position:relative; z-index:200;border-style:none;}*/
+#nav{background-color:#000000;height:37px;width:100%; background:url(../img/master/three_0.gif) repeat-y;position:relative;border-style:none;}
+#nav li{ display:block; float:none;padding:0 0 0 0; cursor:pointer;vertical-align :middle;border-style:none;}
+/*#nav img.icon { border-style:none;vertical-align:middle; }
+#nav img.separator { border-style:none;display:block; }
+#nav img.horizontal-separator { border-style:none;vertical-align:middle; }*/
+#nav ul {list-style:none;margin:0;padding:0;width:170px;border-style:none;}
+#nav ul.static {background-color:Transparent;width:170px;padding:-10px 10px 2px 10px; }
+#nav ul.dynamic {background-color:#1E4F8A;border-color:#336699;border-width:0px;border-style:Solid;width:170px;padding:0px 1px 1px 1px;}
+#nav a { color:White;font-size:11px;font-weight:bold;text-decoration:none;white-space:nowrap;display:block; }
+#nav a.static { background-color:Transparent;border-color:Transparent;border-width:1px;border-style:Solid;height:8px;padding:8px 1px 8px 1px;color:White;text-decoration:none; }
+#nav a.popout { background-image:url("../img/master/arrow_ovr.gif");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+#nav a.popout-dynamic { background:url("/WebResource.axd?d=Wd6S9FjExm4xUEBKTFrNFCY1fBZRFXd1iP58-FGf-qU1&t=634435717631829782") no-repeat right center;padding-right:14px;}
+#nav a.dynamic { padding:2px 2px 2px 2px;color:White;text-decoration:none; }
+#nav a.static.highlighted { color:Gold;background-color:Transparent;height:20px; }
+#nav a.dynamic.highlighted { color:Gold;background-color:#6283A4;border-color:White;border-width:1px;border-style:Solid;height:20px;width:164px; }
+
+
+#IntroHome{background-color:Transparent ;height:22px; width:100%;   position:relative; z-index:200; top: 10px;vertical-align: top; padding-left: 1px; margin-bottom: 20px;line-height: 1.7em;font-size:70%; width :auto; float:left; }
+
+
+#roadMap{ background-color:Transparent;height:22px; width:100%;   position:relative; z-index:200; top: 10px;vertical-align: top; padding-left: 15px; margin-bottom: 20px;line-height: 1.7em;font-size:70%; width :auto; float:right; }
+
+
+#footer{ position:relative;  margin : 2em  1em 1em  0; clear: both;  border-top: 1px solid #cccccc; padding-top: 10px;font-size: 70%; top: 10px; left: 0px; }
+
+
+ /* gridview and button  */  
+ 
+#bt_broad { position:relative ; margin: 0; padding: 2px 0px 0px 8px;}
+#gv_broad {  position:relative ;  margin: 0; padding: 2px 0px 0px  0px;  width:100% ; font-size:90%;}
+
+
+
+#content{position:relative;  width:100%; float:left ; }
+
+
+#roundedBox { text-align: left;font-size: 90%; float:left;}
+#roundedBox ul {background: #4E6985; line-height: 24px; padding-left: 0.5em; margin-bottom: 0.7em; color:White; }
+#roundedBox ul:hover { color:Gold; }
+
+.td{ width:180px; vertical-align:middle;  white-space:nowrap; text-align:center; height:40px; }
+
+/* Button Style */
+.LinkButton
+{
+	background-color:#4E6985;	
+	border:solid 1px #415D9B;
+	margin:5px;
+	min-width:70px;
+	height:20px;
+	width:80px;
+	float:left;
+	padding-left:3px;	
+}
+
+.LinkButton a
+{
+	text-decoration:none;
+	display:block;
+	padding:2px 5px 2px 20px;
+	min-width:70px;	
+}
+	 
+.LinkButton:hover
+{
+	/*background-color: #a0bdf2;*/
+	background-color: #84A1D6;    
+}	 
+
+	 
+.LinkButton a.bLogin
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Login.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bLogin:hover
+{
+	color: Black;
+}
+	 
+.LinkButton a.bSave
+{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Save.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bSave:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bCancel
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Cancel.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bCancel:hover
+{
+	color: Black;
+}
+
+
+.LinkButton a.bClose
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Close.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bClose:hover
+{
+	color: Black;
+}
+
+
+.LinkButton a.bUpdate
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/update.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bUpdate:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bExpand
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Expand.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bExpand:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bCollapse
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Collapse.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bCollapse:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bAdd
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Add.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bAdd:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bDelete
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Delete.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bDelete:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bRefresh
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Refresh.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bRefresh:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bBack
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Back.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bBack:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bSearch
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Search.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bSearch:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bNext
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Next.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bNext:hover
+{
+	color: Black;
+}
+
+.LinkButton a.bPrint
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Print.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButton a.bPrint:hover
+{
+	color: Black;
+}
+
+
+
+/* Long Button Style*/
+.LinkButtonLong
+{
+	background-color:#4E6985;	
+	border:solid 1px #415D9B;
+	margin:5px;
+	min-width:70px;
+	height:20px;
+	width:160px;
+	float:left;
+	padding-left:3px;	
+}
+
+.LinkButtonLong a
+{
+	text-decoration:none;
+	display:block;
+	padding:2px 5px 2px 20px;
+	min-width:70px;	
+}
+	 
+.LinkButtonLong:hover
+{
+	/*background-color: #a0bdf2;*/
+	background-color: #84A1D6;    
+}	
+
+.LinkButtonLong a.bResend
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Resend.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bResend:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bAdd
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Add.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bAdd:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bWindow
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Window.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bWindow:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bExportExcel
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/ExportExcel.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bExportExcel:hover
+{
+	color: Black;
+}
+
+
+.LinkButtonLong a.bSQL
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/SQL.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bSQL:hover
+{
+	color: Black;
+}
+
+
+.LinkButtonLong a.bCancel
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Cancel.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bCancel:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bClose
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Close.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bClose:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bSelect
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Select.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bSelect:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bUnselect
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+	background-image: url(../img/Unselect.png);
+	background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bUnselect:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bUpdate
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/update.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bUpdate:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bDelete
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/delete.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bDelete:hover
+{
+	color: Black;
+}
+
+.LinkButtonLong a.bRefresh
+{
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    color: White;   
+    background-image: url(../img/Refresh.png);
+    background-size: 16px 16px;
+	background-position:left;
+	background-repeat:no-repeat;   
+}
+
+.LinkButtonLong a.bRefresh:hover
+{
+	color: Black;
+}
+
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+} 
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+} 
+
+a.regLink:link 		{  color: #78BBE6; FONT-SIZE: 11pt; text-decoration: underline}
+a.regLink:active 	{  color: #78BBE6; FONT-SIZE: 11pt; text-decoration: underline}
+a.regLink:visited 	{  color: #78BBE6; FONT-SIZE: 11pt; text-decoration: underline}
+a.regLink:hover 	{  color: #C79600; FONT-SIZE: 11pt; text-decoration: none}
+
+ /* bubble up icon  
+.demo {margin  : 0    0   0 0; text-align: center;}
+.demo .menu { margin: 5px 0px; list-style: none; display: inline-block;}
+.demo .menu li {padding: 0px; float: left; position: relative; margin-left: 5px; margin-right: 5px; width: 100px;height: 80px;}
+.demo .menu li a {position: absolute;}
+.demo .menu li img { position: absolute; width: 48px;top: 0px; left: 0px; padding: 0px;  margin: 0 8px 0 0; border: none;overflow: hidden;}
+*/  
+
